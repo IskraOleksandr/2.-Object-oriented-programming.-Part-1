@@ -1,6 +1,7 @@
 import Classes.City;
 import Classes.Country;
 import Classes.Person;
+import Classes.Fraction;
 
 import java.util.ArrayList;
 
@@ -90,6 +91,7 @@ public class Main {
         country2.input();
         System.out.println("\nМетод вывода данных print()");
         country2.print();
+
     }
 }
 

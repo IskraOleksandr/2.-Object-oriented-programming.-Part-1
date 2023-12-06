@@ -28,8 +28,53 @@ public class Country {
         this.capital = capital;
         this.cities = cities;
     }
-//set
 
+    public void input() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("\nВведите название страны:");
+        this.countryname = scanner.nextLine();
+
+        System.out.println("Введите название континента:");
+        this.continent = scanner.nextLine();
+
+        System.out.println("Введите количество жителей в стране:");
+        this.population = scanner.nextInt();
+
+        System.out.println("Введите телефонный код страны:");
+        this.countrycode = scanner.nextInt();
+
+        scanner.nextLine(); // Очистка буфера
+
+        System.out.println("Введите название столицы:");
+        this.capital = scanner.nextLine();
+
+        System.out.println("Введите название городов страны (через запятую):");
+        String citiesString = scanner.nextLine();
+
+        String[] citySplit = citiesString.split(",");
+        for (String city : citySplit) {
+            cities.add(city.trim());
+        }
+    }
+
+    public void print() {
+        System.out.println("Страна: " + this.countryname + "\nКонтинент: " + this.continent
+                + "\nКоличество жителей: " + this.population + "\nТелефонный код: "
+                + this.countrycode + "\nСтолица: " + this.capital + "\nГорода: ");
+        for (String city : this.cities) {
+            System.out.println(city);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "\nСтрана: " + this.countryname + "\nКонтинент: " + this.continent +
+                "\nКоличество жителей: " + this.population + "\nТелефонный код страни: " + this.countrycode +
+                "\nТелефонный код города: " + cities.toString();
+    }
+
+    //set
     public void setCountryname(String countryname) {
         this.countryname = countryname;
     }
@@ -81,50 +126,5 @@ public class Country {
 
     public ArrayList<String> getCities() {
         return cities;
-    }
-
-    public void input() {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("\nВведите название страны:");
-        this.countryname = scanner.nextLine();
-
-        System.out.println("Введите название континента:");
-        this.continent = scanner.nextLine();
-
-        System.out.println("Введите количество жителей в стране:");
-        this.population = scanner.nextInt();
-
-        System.out.println("Введите телефонный код страны:");
-        this.countrycode = scanner.nextInt();
-
-        scanner.nextLine(); // Очистка буфера
-
-        System.out.println("Введите название столицы:");
-        this.capital = scanner.nextLine();
-
-        System.out.println("Введите название городов страны (через запятую):");
-        String citiesString = scanner.nextLine();
-
-        String[] citySplit = citiesString.split(",");
-        for (String city : citySplit) {
-            cities.add(city.trim());
-        }
-    }
-
-    public void print() {
-        System.out.println("Страна: " + this.countryname + "\nКонтинент: " + this.continent
-                + "\nКоличество жителей: " + this.population + "\nТелефонный код: "
-                + this.countrycode + "\nСтолица: " + this.capital + "\nГорода: ");
-        for (String city : this.cities) {
-            System.out.println(city);
-        }
-    }
-
-    @Override
-    public String toString() {
-        return "\nСтрана: " + this.countryname + "\nКонтинент: " + this.continent +
-                "\nКоличество жителей: " + this.population + "\nТелефонный код страни: " + this.countrycode +
-                "\nТелефонный код города: " + cities.toString();
     }
 }

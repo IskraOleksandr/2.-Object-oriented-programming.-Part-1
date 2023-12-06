@@ -28,6 +28,46 @@ public class City {
         this.phoneCode = phoneCode;
     }
 
+
+    @Override
+    public String toString() {
+        return "\nНазвание города: " + this.cityname + "\nНазвание региона: " + this.region +
+                "\nНазвание страны: " + this.country + "\nКоличество жителей: " + this.population +
+                "\nПочтовый индекс города: " + this.postalCode + "\nТелефонный код города: " + this.phoneCode;
+    }
+
+    public void input() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("\nВведите название города:");
+        this.cityname = scanner.nextLine();
+
+        System.out.println("Введите название региона:");
+        this.region = scanner.nextLine();
+
+        System.out.println("Введите название страны:");
+        this.country = scanner.nextLine();
+
+        System.out.println("Введите количество жителей");
+        this.population = scanner.nextInt();
+
+        scanner.nextLine(); // Очистка буфера
+
+        System.out.println("Введите почтовый индекс города:");
+        this.postalCode = scanner.nextInt();
+
+        scanner.nextLine(); // Очистка буфера
+
+        System.out.println("Введите телефонный код города:");
+        this.phoneCode = scanner.nextLine();
+    }
+
+    public void print() {
+        System.out.println("\nНазвание города: " + this.cityname + "\nНазвание региона: " + this.region +
+                "\nНазвание страны: " + this.country + "\nКоличество жителей: " + this.population +
+                "\nПочтовый индекс города: " + this.postalCode + "\nТелефонный код города: " + this.phoneCode);
+    }
+
     //set
     public void setCityname(String cityname) {
         this.cityname = cityname;
@@ -77,44 +117,4 @@ public class City {
     public String getPhoneCode() {
         return phoneCode;
     }
-
-    @Override
-    public String toString() {
-        return "\nНазвание города: " + this.cityname + "\nНазвание региона: " + this.region +
-                "\nНазвание страны: " + this.country + "\nКоличество жителей: " + this.population +
-                "\nПочтовый индекс города: " + this.postalCode + "\nТелефонный код города: " + this.phoneCode;
-    }
-
-    public void input() {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("\nВведите название города:");
-        this.cityname = scanner.nextLine();
-
-        System.out.println("Введите название региона:");
-        this.region = scanner.nextLine();
-
-        System.out.println("Введите название страны:");
-        this.country = scanner.nextLine();
-
-        System.out.println("Введите количество жителей");
-        this.population = scanner.nextInt();
-
-        scanner.nextLine(); // Очистка буфера
-
-        System.out.println("Введите почтовый индекс города:");
-        this.postalCode = scanner.nextInt();
-
-        scanner.nextLine(); // Очистка буфера
-
-        System.out.println("Введите телефонный код города:");
-        this.phoneCode = scanner.nextLine();
-    }
-
-    public void print() {
-        System.out.println("\nНазвание города: " + this.cityname + "\nНазвание региона: " + this.region +
-                "\nНазвание страны: " + this.country + "\nКоличество жителей: " + this.population +
-                "\nПочтовый индекс города: " + this.postalCode + "\nТелефонный код города: " + this.phoneCode);
-    }
-
 }

@@ -28,6 +28,42 @@ public class Person {
         this.homeAddress = homeAddress;
     }
 
+
+    @Override
+    public String toString() {
+        return "\nФИО: " + this.fullname + "\nДата рождения: " + this.dateOfBirth +
+                "\nНомер телефона: " + this.phoneNumber + "\nГород: " + this.city +
+                "\nСтрана: " + this.country + "\nДомашний адрес: " + this.homeAddress;
+    }
+
+    public void input() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("\nВведите ФИО:");
+        this.fullname = scanner.nextLine();
+
+        System.out.println("Введите дату рождения:");
+        this.dateOfBirth = scanner.nextLine();
+
+        System.out.println("Введите номер телефона:");
+        this.phoneNumber = scanner.nextLine();
+
+        System.out.println("Введите название города");
+        this.city = scanner.nextLine();
+
+        System.out.println("Введите название страны:");
+        this.country = scanner.nextLine();
+
+        System.out.println("Введите домашний адрес:");
+        this.homeAddress = scanner.nextLine();
+    }
+
+    public void print() {
+        System.out.println("\nФИО: " + this.fullname + "\nДата рождения: " + this.dateOfBirth +
+                "\nНомер телефона: " + this.phoneNumber + "\nГород: " + this.city +
+                "\nСтрана: " + this.country + "\nДомашний адрес: " + this.homeAddress);
+    }
+
     //set
     public void setFullname(String fullname) {
         this.fullname = fullname;
@@ -76,40 +112,5 @@ public class Person {
 
     public String getHomeAddress() {
         return homeAddress;
-    }
-
-    @Override
-    public String toString() {
-        return "\nФИО: " + this.fullname + "\nДата рождения: " + this.dateOfBirth +
-                "\nНомер телефона: " + this.phoneNumber + "\nГород: " + this.city +
-                "\nСтрана: " + this.country + "\nДомашний адрес: " + this.homeAddress;
-    }
-
-    public void input() {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("\nВведите ФИО:");
-        this.fullname = scanner.nextLine();
-
-        System.out.println("Введите дату рождения:");
-        this.dateOfBirth = scanner.nextLine();
-
-        System.out.println("Введите номер телефона:");
-        this.phoneNumber = scanner.nextLine();
-
-        System.out.println("Введите название города");
-        this.city = scanner.nextLine();
-
-        System.out.println("Введите название страны:");
-        this.country = scanner.nextLine();
-
-        System.out.println("Введите домашний адрес:");
-        this.homeAddress = scanner.nextLine();
-    }
-
-    public void print() {
-        System.out.println("\nФИО: " + this.fullname + "\nДата рождения: " + this.dateOfBirth +
-                "\nНомер телефона: " + this.phoneNumber + "\nГород: " + this.city +
-                "\nСтрана: " + this.country + "\nДомашний адрес: " + this.homeAddress);
     }
 }
