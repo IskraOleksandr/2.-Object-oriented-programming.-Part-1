@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="457e846f-cb7d-4899-bc1c-f3d134f4298a" name="Changes" comment="#Task5 Создание класса Book(Книга) и Car(Автомобиль) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ex6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex6.java" afterDir="false" />
-    </list>
+    <list default="true" id="457e846f-cb7d-4899-bc1c-f3d134f4298a" name="Changes" comment="#Task6 Изменение даных для заполнения классов." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "IskraOleksandr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e2b5abe7-f2df-47b3-8734-8045a562bdec" />
+        <option name="url" value="https://github.com/IskraOleksandr/2.-Object-oriented-programming.-Part-1" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -79,7 +88,7 @@
       <workItem from="1701957867623" duration="1130000" />
       <workItem from="1702108974861" duration="6920000" />
       <workItem from="1702209360820" duration="2127000" />
-      <workItem from="1702214362639" duration="828000" />
+      <workItem from="1702214362639" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="#Task1 Создание класса Person(человек) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами.">
       <option name="closed" value="true" />
@@ -121,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702143168711</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="#Task6 Изменение даных для заполнения классов.">
+      <option name="closed" value="true" />
+      <created>1702215402850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702215402850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +161,8 @@
     <MESSAGE value="#Task3 Создание класса Country(Страна) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
     <MESSAGE value="#Task4 Создание класса Fraction(Дробь) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
     <MESSAGE value="#Task5 Создание класса Book(Книга) и Car(Автомобиль) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
-    <option name="LAST_COMMIT_MESSAGE" value="#Task5 Создание класса Book(Книга) и Car(Автомобиль) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
+    <MESSAGE value="#Task6 Изменение даных для заполнения классов." />
+    <option name="LAST_COMMIT_MESSAGE" value="#Task6 Изменение даных для заполнения классов." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
