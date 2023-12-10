@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="457e846f-cb7d-4899-bc1c-f3d134f4298a" name="Changes" comment="#Task4 Создание класса Fraction(Дробь) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами.">
-      <change afterPath="$PROJECT_DIR$/src/Classes/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Classes/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex6.java" afterDir="false" />
+    <list default="true" id="457e846f-cb7d-4899-bc1c-f3d134f4298a" name="Changes" comment="#Task5 Создание класса Book(Книга) и Car(Автомобиль) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Classes/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classes/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainFraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +77,9 @@
       <workItem from="1701847638035" duration="1811000" />
       <workItem from="1701859492409" duration="12730000" />
       <workItem from="1701957867623" duration="1130000" />
-      <workItem from="1702108974861" duration="6720000" />
+      <workItem from="1702108974861" duration="6920000" />
+      <workItem from="1702209360820" duration="2127000" />
+      <workItem from="1702214362639" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="#Task1 Создание класса Person(человек) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами.">
       <option name="closed" value="true" />
@@ -120,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701893426468</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="#Task5 Создание класса Book(Книга) и Car(Автомобиль) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами.">
+      <option name="closed" value="true" />
+      <created>1702143168711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702143168711</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +143,8 @@
     <MESSAGE value="#Task2 Создание класса City(Город) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
     <MESSAGE value="#Task3 Создание класса Country(Страна) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
     <MESSAGE value="#Task4 Создание класса Fraction(Дробь) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
-    <option name="LAST_COMMIT_MESSAGE" value="#Task4 Создание класса Fraction(Дробь) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
+    <MESSAGE value="#Task5 Создание класса Book(Книга) и Car(Автомобиль) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
+    <option name="LAST_COMMIT_MESSAGE" value="#Task5 Создание класса Book(Книга) и Car(Автомобиль) с конструктом с параметрами и без. С перегруженным методом toString(), геттерамы и сеттерами." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
